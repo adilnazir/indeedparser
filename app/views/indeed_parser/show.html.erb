@@ -1,0 +1,41 @@
+<% provide(:title, 'Home') %>
+<div class="center hero-unit">
+  <% if flash[:notice].present?  %>
+      <div class="alert alert-success clearfix" id="success-alert">
+        <button type="button" id="close-success-alert" class="close close_sm" data-dismiss="alert">X</button>
+        <strong><%= flash[:notice] %></strong>
+      </div>
+
+  <% end %>
+  <h1>Tkxel Parsing Corner</h1>
+
+  <h2>
+    "A Parser In need, is a parser
+    <a href="http://www.indeed.com">Indeed</a>"
+  </h2>
+
+  <%= form_tag url_for(:action => 'parse'), :method => 'Get', :id => "my_form" do %>
+      <input type="text" id="query_string" name="query_string" style="margin-bottom:-1px;height:35px; width:300px;">
+      <%= link_to "Parse It!" , "#", id: "submit-form" ,class: "btn btn-large btn-primary", title: "I can Parse it ! ;-)"%>
+  <% end %>
+</div>
+
+
+<script type="text/javascript" language="javascript">
+
+    $('#close-success-alert').click(function() {
+        $("#success-alert").hide();
+    });
+
+    $('#submit-form').click(function() {
+        if ($('#query_string').val() != "")
+        {
+            //alert("submitting form.");
+            $('#my_form').submit();
+        }
+    });
+</script>
+
+
+
+
