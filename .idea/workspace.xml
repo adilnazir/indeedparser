@@ -15,7 +15,7 @@
     <file path="/Gemfile" changelist="6f183a3a-628f-4588-8655-5f396a2ed6df" time="1378887454631" ignored="false" />
     <file path="/indeed_parser_controller.rb" changelist="6f183a3a-628f-4588-8655-5f396a2ed6df" time="1378896022662" ignored="false" />
     <file path="/fragment.rb" changelist="6f183a3a-628f-4588-8655-5f396a2ed6df" time="1378893405746" ignored="false" />
-    <file path="/parsing_job.rb" changelist="6f183a3a-628f-4588-8655-5f396a2ed6df" time="1378895063800" ignored="false" />
+    <file path="/parsing_job.rb" changelist="6f183a3a-628f-4588-8655-5f396a2ed6df" time="1378901420782" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="12" selection-start="350" selection-end="350" vertical-scroll-proportion="0.31877214">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -46,11 +56,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/indeed_parser.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/indeed_parser/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/indeed_parser_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/parsing_job.rb" />
       </list>
     </option>
@@ -64,9 +74,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="52" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1229" />
-    <option name="height" value="1029" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -94,6 +104,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,18 +230,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReelGenie/rgx1" />
-    <property name="options.searchVisible" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: indeedparser">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -485,14 +495,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="-4" width="1229" height="1029" extended-state="6" />
-    <editor active="false" />
+    <frame x="52" y="24" width="1229" height="1001" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28037384" sideWeight="0.4988938" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28632116" sideWeight="0.4988938" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5011062" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -603,13 +613,6 @@
         <state line="25" column="34" selection-start="576" selection-end="576" vertical-scroll-proportion="0.74552685" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="51" selection-start="776" selection-end="776" vertical-scroll-proportion="0.20769231">
@@ -632,24 +635,35 @@
         <state line="75" column="1" selection-start="805" selection-end="805" vertical-scroll-proportion="0.7867299" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/indeed_parser/parse.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/indeed_parser/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="470" selection-end="470" vertical-scroll-proportion="-0.077922076" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/indeed_parser_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="63" selection-start="285" selection-end="285" vertical-scroll-proportion="0.15661253" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/indeed_parser/parse.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/indeed_parser/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="470" selection-end="470" vertical-scroll-proportion="0.23269689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/parsing_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="152" selection-end="152" vertical-scroll-proportion="0.087006964">
+        <state line="13" column="111" selection-start="598" selection-end="598" vertical-scroll-proportion="0.2262181">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="350" selection-end="350" vertical-scroll-proportion="0.31877214">
           <folding />
         </state>
       </provider>
