@@ -3,7 +3,7 @@ class ParsingJob < Struct.new(:query)
   def perform
     @GMAIL_USERNAME = "tkxel13@gmail.com"
     @GMAIL_PASSWORD = "TechnologyXel123"
-    @DOC_KEY = ""
+    @DOC_KEY = "0Amp2LsNJ71uwdGFaSkVEamFGdExtcHRSZFd0VE9KZXc"
     session = GoogleDrive.login(@GMAIL_USERNAME, @GMAIL_PASSWORD)
     spreadsheet = session.spreadsheet_by_key(@DOC_KEY)
     ws = spreadsheet.worksheets[0]
