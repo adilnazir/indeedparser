@@ -34,6 +34,7 @@ class ParsingJob < Struct.new(:query)
           ws[row, 2] = contact_us_url
           ws[row, 3] = emails.join(', ')
           ws[row, 4] = phone
+          ws[row, 5] = query
           row+=1
         rescue
           next
