@@ -53,6 +53,7 @@ GEM
       oauth (>= 0.3.6)
       oauth2 (>= 0.5.0)
     hike (1.2.3)
+    hirefire-resource (0.2.0)
     httpauth (0.2.0)
     i18n (0.6.5)
     journey (1.0.4)
@@ -144,6 +145,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   delayed_job_active_record
   google_drive
+  hirefire-resource
   jquery-rails
   nokogiri
   pg (= 0.15.1)

@@ -15,6 +15,7 @@ gem 'nokogiri'
 gem 'rest-client'
 gem 'google_drive'
 gem 'delayed_job_active_record'
+gem "hirefire-resource"
 
 group :production do
   gem 'pg', '0.15.1'
